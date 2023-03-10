@@ -1,0 +1,7 @@
+#5. WAP to print a string in reverse order. Take the string as input from the user.
+
+#Solution:- 
+
+string = input("Enter the string:")
+for i in range((len(string)-1),-1,-1):
+    print(string[i],end="")
