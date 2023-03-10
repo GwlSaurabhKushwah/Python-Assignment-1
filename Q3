@@ -1,0 +1,4 @@
+Q3. WAP to calculate the count of elements in a string taken as input from the user.
+str = input("Enter string:")
+count = len(str)
+print("Total elements in a string is :",count)
