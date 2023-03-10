@@ -1,0 +1,4 @@
+# Q1. WAP to display the last digit of a number. Take number as input. (Don't use indexing for this)
+num = int(input("Enter the Number:"))
+num1 =num%10
+print(num1)
