@@ -1,0 +1,27 @@
+num1 =int(input("enter the first number :"))
+num2= int(input("enter 2nd number :"))
+oper = input("enter operator")
+if (oper == "+"):
+    print(num1 + num2)
+elif oper == "-" :
+    if num1 > num2:
+        ans = num1 - num2
+        print(ans)
+    else:
+        ans = num2 - num1
+        print(ans)
+elif oper == "*":
+    ans = num1 * num2
+    print(ans)
+elif oper == "/":
+    ans = num1 /  num2
+    print(ans)
+elif oper == "%":
+    ans = num1 %  num2
+    print(ans)
+elif oper == "**":
+    ans = num1 **  num2
+    print(ans)
+elif oper == "//":
+    ans = num1 //  num2
+    print(ans)
